@@ -143,7 +143,6 @@ export default function Project() {
                                 <div className="flex justify-center items-center gap-1 flex-row">
                                     <p>Github</p>
                                     <UilLocationArrow />
-
                                 </div>
                             </div>
                         </div>
