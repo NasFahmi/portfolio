@@ -9,7 +9,7 @@ export default function Project() {
         <div className="container px-10 py-8">
             <h1 className="text-whiteColor text-center text-xl font-medium mb-8">Project I have been Made</h1>
             <div className="flex flex-col gap-10">
-                <div className="bg-Black3 p-7 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
+                <div className="bg-Black3 p-7 max-w-[438px] mx-auto rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
                     <div className="flex justify-between flex-col gap-16">
                         <div className=" ">
                             <div className="flex justify-start items-center gap-4 mb-4">
@@ -25,7 +25,7 @@ export default function Project() {
                                 <p>Find Any Perfect Venue For Whereever Life Takes You!</p>
                             </div>
                         </div>
-                        <div className="flex justify-between items-center text-whiteColor text-sm">
+                        <div className="flex justify-center items-center text-whiteColor text-sm gap-2">
                             <div className="flex justify-center items-center gap-2 ">
                                 <UilGlobe />
                                 <div className="flex justify-center items-center gap-1 flex-row">
@@ -44,7 +44,7 @@ export default function Project() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-Black3 p-7 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
+                <div className="bg-Black3 p-7 max-w-[438px] mx-auto rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
                     <div className="flex justify-between flex-col gap-16">
                         <div className=" ">
                             <div className="flex justify-start items-center gap-4 mb-4">
@@ -60,7 +60,7 @@ export default function Project() {
                                 <p>Find Any Perfect Venue For Whereever Life Takes You!</p>
                             </div>
                         </div>
-                        <div className="flex justify-between items-center text-whiteColor text-sm">
+                        <div className="flex justify-center items-center text-whiteColor text-sm gap-2">
                             <div className="flex justify-center items-center gap-2 ">
                                 <UilGlobe />
                                 <div className="flex justify-center items-center gap-1 flex-row">
@@ -79,7 +79,7 @@ export default function Project() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-Black3 p-7 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
+                <div className="bg-Black3 p-7 mx-auto max-w-[438px]rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
                     <div className="flex justify-between flex-col gap-16">
                         <div className=" ">
                             <div className="flex justify-start items-center gap-4 mb-4">
@@ -95,7 +95,7 @@ export default function Project() {
                                 <p>Find Any Perfect Venue For Whereever Life Takes You!</p>
                             </div>
                         </div>
-                        <div className="flex justify-between items-center text-whiteColor text-sm">
+                        <div className="flex justify-center items-center text-whiteColor text-sm gap-2">
                             <div className="flex justify-center items-center gap-2 ">
                                 <UilGlobe />
                                 <div className="flex justify-center items-center gap-1 flex-row">
@@ -114,7 +114,7 @@ export default function Project() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-Black3 p-7 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
+                <div className="bg-Black3 p-7 mx-auto max-w-[438px] rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2">
                     <div className="flex justify-between flex-col gap-16">
                         <div className=" ">
                             <div className="flex justify-start items-center gap-4 mb-4">
@@ -130,7 +130,7 @@ export default function Project() {
                                 <p>Find Any Perfect Venue For Whereever Life Takes You!</p>
                             </div>
                         </div>
-                        <div className="flex justify-between items-center text-whiteColor text-sm">
+                        <div className="flex justify-center gap-2 items-center text-whiteColor text-sm">
                             <div className="flex justify-center items-center gap-2 ">
                                 <UilGlobe />
                                 <div className="flex justify-center items-center gap-1 flex-row">
