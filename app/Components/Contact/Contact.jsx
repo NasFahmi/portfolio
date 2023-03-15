@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className='container px-8 py-6'>
-                <h1 className='text-whiteColor text-center text-xl font-medium mb-8'>Tell me about you next project</h1>
+        <div className='container px-8 py-6 mx-auto max-w-[480px]'>
+                <h1 className='text-whiteColor text-center text-xl font-medium mb-8
+                sm:text-2xl'>Tell me about you next project</h1>
             <div className="bg-Black2 p-8 rounded-3xl text-whiteColor">
                 <div className="">
                     <form action="" className='flex flex-col gap-4'>

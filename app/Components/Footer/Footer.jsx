@@ -5,7 +5,7 @@ import Twitter from "../../../public/Twitter.png";
 import Youtube from "../../../public/Youtube.png";
 export default function Footer() {
     return (
-        <div className='container px-8 py-6 bg-Black2 text-whiteColor'>
+        <div className='px-8 py-6 bg-Black2 text-whiteColor w-full'>
             <div className="flex justify-center items-center flex-col gap-5">
                 <div className="flex justify-center items-center gap-4">
                     <Image alt="Facebook" src={Facebook} className='w-[15%]' />
