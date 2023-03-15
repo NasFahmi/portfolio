@@ -6,10 +6,7 @@ import ReactLogo from "../../../public/React.png";
 import NextJS from "../../../public/NextJS.png";
 import Tailwind from "../../../public/Tailwind.png";
 import Hero from "../../../public/HeroSection.png";
-// import Facebook from "../../../public/Facebook.png";
-// import Instagram from "../../../public/Instagram.png";
-// import Twitter from "../../../public/Twitter.png";
-// import Youtube from "../../../public/Youtube.png";
+import { UilEnvelope, UilLocationArrow,UilGithub } from '@iconscout/react-unicons'
 import Image from "next/image";
 export default function Section() {
     return (
@@ -28,8 +25,30 @@ export default function Section() {
                 <div><Image src={NextJS} alt='css' /></div>
                 <div><Image src={Tailwind} alt='css' /></div>
             </div>
+            <div className="flex gap-2 justify-center items-center">
+                <div className="w-10 h-10 rounded-full bg-Gray hidden"></div>
+                <div className="px-3 py-1 bg-DarkBlue rounded-md">
+                    <div className="flex gap-2">
+                        <UilEnvelope />
+                        <div className="flex gap-1">
+                            <h1 className="text-sm whitespace-nowrap">Mail me</h1>
+                            <UilLocationArrow />
+                        </div>
+                    </div>
+                </div>
+                <div className="px-3 py-1 bg-DarkBlue rounded-md flex justify-center items-center">
+                    <div className="flex gap-2">
+                        <UilGithub />
+                        <div className="flex justify-center items-center gap-1 flex-row">
+                            <p className="text-sm">Github</p>
+                            <UilLocationArrow />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="mt-6">
-                <Image src={Hero} alt='Section'/>
+                <Image src={Hero} alt='Section' />
             </div>
         </div>
     )

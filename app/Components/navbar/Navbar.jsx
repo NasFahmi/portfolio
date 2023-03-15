@@ -1,7 +1,6 @@
 'use client'
 import Logo from '../../../public/Logo.png'
 import Image from "next/image";
-import './style.css'
 import { useState } from 'react';
 export default function Navbar() {
   const [isActive, setisActive] = useState(true)
@@ -31,6 +30,7 @@ export default function Navbar() {
             <h1 className='text-end text-3xl'>Project</h1>
             <h1 className='text-end text-3xl'>Resume</h1>
             <h1 className='text-end text-3xl'>Contact</h1>
+            <div className="w-20 h-20 rounded-full bg-Gray "></div>
           </div>
         </div>
         :
@@ -39,6 +39,7 @@ export default function Navbar() {
             <h1 className='text-end text-3xl'>Project</h1>
             <h1 className='text-end text-3xl'>Resume</h1>
             <h1 className='text-end text-3xl'>Contact</h1>
+            <div className="w-20 h-20 rounded-full bg-Gray "></div>
           </div>
         </div>}
     </div>
