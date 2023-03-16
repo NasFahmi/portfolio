@@ -2,6 +2,7 @@
 import Logo from '../../../public/Logo.png'
 import Image from "next/image";
 import { useState } from 'react';
+import Link from "next/link";
 export default function Navbar() {
   const [isActive, setisActive] = useState(true)
 
@@ -27,9 +28,9 @@ export default function Navbar() {
           <div className={isActive ? 'w-12 h-2 bg-whiteColor rounded-sm' : 'w-12 h-2 bg-whiteColor rounded-b-sm'}></div>
         </div>
         <div className="hidden sm:flex justify-center items-center gap-[10%] xl:gap-10 ">
-          <h1 className='text-whiteColor text-lg'>Project</h1>
-          <h1 className='text-whiteColor text-lg'>Resume</h1>
-          <h1 className='text-whiteColor text-lg'>Contact</h1>
+          <Link href="#Project"><h1 className='text-whiteColor text-lg'>Project</h1></Link>
+          <Link href='/resume'><h1 className='text-whiteColor text-lg'>Resume</h1></Link>
+          <Link href='#Contact'><h1 className='text-whiteColor text-lg'>Contact</h1></Link>
         </div>
 
       </div>

@@ -9,7 +9,7 @@ export default function Project() {
     <div className="container px-10 py-8 mx-auto max-w-[480px] 
     sm:max-w-[640px]
     lg:max-w-5xl
-    xl:max-w-7xl">
+    xl:max-w-7xl" id="Project">
       <h1 className="text-whiteColor text-center text-xl font-medium mb-8
       sm:text-2xl">Project I have been Made</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10

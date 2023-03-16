@@ -8,6 +8,7 @@ import Tailwind from "../../../public/Tailwind.png";
 import Hero from "../../../public/HeroSection.png";
 import { UilEnvelope, UilLocationArrow, UilGithub } from '@iconscout/react-unicons'
 import Image from "next/image";
+import Link from "next/link";
 export default function Section() {
     return (
         <div className="container px-10 py-8 text-whiteColor grid grid-flow-row grid-cols-1 gap-5 mx-auto max-w-[480px]
@@ -22,17 +23,17 @@ export default function Section() {
                 <h1 className="text-2xl sm:text-3xl">Nasrul Fahmi Ulumuddin</h1>
                 <p className="text-sm text-Gray mb-4 sm:text-base">Saya adalah seorang Frontend Developer yang berfokus pada pengembangan website yang dapat memberikan pengalaman pengguna yang terbaik dan responsif. Saya memiliki pengalaman dalam mengembangkan website dengan HTML, CSS, JavaScript dan berbagai framework seperti React dan Next Js</p>
                 <div className="flex items-center justify-between w-[100%] gap-4">
-                    <div><Image src={HTML} alt='css' /></div>
-                    <div><Image src={CSS} alt='css' /></div>
-                    <div><Image src={Javascript} alt='css' /></div>
-                    <div><Image src={Nodejs} alt='css' /></div>
-                    <div> <Image src={ReactLogo} alt='css' /></div>
-                    <div><Image src={NextJS} alt='css' /></div>
-                    <div><Image src={Tailwind} alt='css' /></div>
+                    <div><Link href='https://id.wikipedia.org/wiki/HTML'><Image src={HTML} alt='css' /></Link></div>
+                    <div><Link href='https://en.wikipedia.org/wiki/CSS'><Image src={CSS} alt='css' /></Link></div>
+                    <div><Link href='https://id.wikipedia.org/wiki/JavaScript'><Image src={Javascript} alt='css' /></Link></div>
+                    <div><Link href='https://nodejs.org/en/'><Image src={Nodejs} alt='css' /></Link></div>
+                    <div><Link href='https://reactjs.org/'><Image src={ReactLogo} alt='css' /></Link></div>
+                    <div><Link href='https://nextjs.org/'><Image src={NextJS} alt='css' /></Link></div>
+                    <div><Link href='https://tailwindcss.com/'><Image src={Tailwind} alt='css' /></Link></div>
                 </div>
                 <div className="flex gap-2 justify-center items-center sm:justify-start sm:gap-4 sm:my-3">
                     <div className="w-10 h-10 rounded-full bg-Gray hidden sm:flex"></div>
-                    <div className="px-3 py-1 bg-DarkBlue rounded-md">
+                    <Link href="mailto:75nasrulfahmi@gmail.com"><div className="px-3 py-1 bg-DarkBlue rounded-md">
                         <div className="flex gap-2">
                             <UilEnvelope />
                             <div className="flex gap-1 justify-center items-center">
@@ -40,8 +41,8 @@ export default function Section() {
                                 <UilLocationArrow />
                             </div>
                         </div>
-                    </div>
-                    <div className="px-3 py-1 bg-DarkBlue rounded-md flex justify-center items-center">
+                    </div></Link>
+                    <Link href='https://github.com/NasFahmi'><div className="px-3 py-1 bg-DarkBlue rounded-md flex justify-center items-center">
                         <div className="flex gap-2">
                             <UilGithub />
                             <div className="flex justify-center items-center gap-1 flex-row">
@@ -50,7 +51,7 @@ export default function Section() {
 
                             </div>
                         </div>
-                    </div>
+                    </div></Link>
                 </div>
             </div>
             <div className="mt-6 flex justify-center items-center xl:justify-end">

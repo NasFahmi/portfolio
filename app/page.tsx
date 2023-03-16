@@ -6,7 +6,7 @@ import Footer from "./Components/Footer/Footer";
 export default function Home() {  
   return (
     <div className="bg-Background ">
-      <main className="flex justify-center items-center flex-col">
+      <main className="flex justify-center items-center flex-col scroll-smooth">
         <Navbar />
         <Section />
         <Project />
