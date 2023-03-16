@@ -10,9 +10,11 @@ import { UilEnvelope, UilLocationArrow, UilGithub } from '@iconscout/react-unico
 import Image from "next/image";
 export default function Section() {
     return (
-        <div className="container px-10 py-8 text-whiteColor flex flex-col gap-5 mx-auto max-w-[480px]
-        sm:max-w-[640px]">
-            <div className="flex flex-col gap-5">
+        <div className="container px-10 py-8 text-whiteColor grid grid-flow-row grid-cols-1 gap-5 mx-auto max-w-[480px]
+        sm:max-w-[640px]
+        lg:max-w-5xl lg:grid-flow-row lg:grid-cols-2 lg:gap-8
+        xl:max-w-7xl">
+            <div className="flex flex-col gap-5 xl:max-w-[550px]">
                 <div className="bg-Blue px-3 py-4 flex justify-center items-center  rounded-lg w-52
                 sm:w-60">
                     <h1 className="sm:text-lg">I’am Frontend Developer</h1>
@@ -33,7 +35,7 @@ export default function Section() {
                     <div className="px-3 py-1 bg-DarkBlue rounded-md">
                         <div className="flex gap-2">
                             <UilEnvelope />
-                            <div className="flex gap-1">
+                            <div className="flex gap-1 justify-center items-center">
                                 <h1 className="text-sm whitespace-nowrap">Mail me</h1>
                                 <UilLocationArrow />
                             </div>
@@ -51,8 +53,8 @@ export default function Section() {
                     </div>
                 </div>
             </div>
-            <div className="mt-6 flex justify-center items-center">
-                <Image src={Hero} alt='Section' className="sm:w-[70%]" />
+            <div className="mt-6 flex justify-center items-center xl:justify-end">
+                <Image src={Hero} alt='Section' className="sm:w-[70%] lg:w-[100%] xl:w-[80%]" />
             </div>
         </div>
     )

@@ -11,10 +11,11 @@ export default function Navbar() {
 
   return (
     <div className='container px-10 py-8 mx-auto max-w-[480px]
-    sm:max-w-[640px]'>
+    sm:max-w-[640px] lg:max-w-5xl xl:max-w-7xl'>
       <div className="flex justify-between items-center ">
-        <div className="w-12">
-          <Image src={Logo} alt='LOGO' />
+        <div className="flex justify-center items-center gap-2">
+          <Image src={Logo} alt='LOGO' className='w-10'/>
+          <h1 className='hidden sm:block sm:text-xl sm:text-whiteColor'>Nasrul Fahmi</h1>
         </div>
         <div className="flex flex-col gap-2 cursor-pointer z-10
         sm:hidden" onClick={toogleActive}>
@@ -25,7 +26,7 @@ export default function Navbar() {
           </div>
           <div className={isActive ? 'w-12 h-2 bg-whiteColor rounded-sm' : 'w-12 h-2 bg-whiteColor rounded-b-sm'}></div>
         </div>
-        <div className="hidden sm:flex justify-center items-center gap-[10%] ">
+        <div className="hidden sm:flex justify-center items-center gap-[10%] xl:gap-10 ">
           <h1 className='text-whiteColor text-lg'>Project</h1>
           <h1 className='text-whiteColor text-lg'>Resume</h1>
           <h1 className='text-whiteColor text-lg'>Contact</h1>
