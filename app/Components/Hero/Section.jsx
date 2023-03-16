@@ -3,7 +3,7 @@ import CSS from "../../../public/CSS.png";
 import Javascript from "../../../public/Javascript.png";
 import Nodejs from "../../../public/NodeJS.png";
 import ReactLogo from "../../../public/React.png";
-import Nextjs from "../../../public/NextJS.png";
+import Nextjs from "../../../public/NextJs.png";
 import Tailwind from "../../../public/Tailwind.png";
 import Hero from "../../../public/HeroSection.png";
 import { UilEnvelope, UilLocationArrow, UilGithub } from '@iconscout/react-unicons'
