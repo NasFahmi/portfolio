@@ -3,7 +3,7 @@ import CSS from "../../../public/CSS.png";
 import Javascript from "../../../public/Javascript.png";
 import Nodejs from "../../../public/NodeJS.png";
 import ReactLogo from "../../../public/React.png";
-import NextJS from "../../../public/NextJS.png";
+import Nextjs from "../../../public/NextJS.png";
 import Tailwind from "../../../public/Tailwind.png";
 import Hero from "../../../public/HeroSection.png";
 import { UilEnvelope, UilLocationArrow, UilGithub } from '@iconscout/react-unicons'
@@ -28,7 +28,7 @@ export default function Section() {
                     <div><Link href='https://id.wikipedia.org/wiki/JavaScript'><Image src={Javascript} alt='css' /></Link></div>
                     <div><Link href='https://nodejs.org/en/'><Image src={Nodejs} alt='css' /></Link></div>
                     <div><Link href='https://reactjs.org/'><Image src={ReactLogo} alt='css' /></Link></div>
-                    <div><Link href='https://nextjs.org/'><Image src={NextJS} alt='css' /></Link></div>
+                    <div><Link href='https://nextjs.org/'><Image src={Nextjs} alt='css' /></Link></div>
                     <div><Link href='https://tailwindcss.com/'><Image src={Tailwind} alt='css' /></Link></div>
                 </div>
                 <div className="flex gap-2 justify-center items-center sm:justify-start sm:gap-4 sm:my-3">
