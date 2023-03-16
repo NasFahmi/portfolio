@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from 'react';
 import Link from "next/link";
 export default function Navbar() {
-  const [isActive, setisActive] = useState(true)
+  const [isActive, setisActive] = useState(false)
 
   const toogleActive = () => {
     setisActive(prevValue => !prevValue)
@@ -35,7 +35,7 @@ export default function Navbar() {
 
       </div>
       {isActive ?
-        <div className="sm:hidden bg-Black2 w-[80%] h-screen text-whiteColor absolute right-[-100%] top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2 transition-all duration-300 ease-in-out  ">
+        <div className="sm:hidden bg-Black2 w-[80%] h-screen text-whiteColor absolute right-0 top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2 transition-all duration-300 ease-in-out  ">
           <div className="flex flex-col justify-center items-end gap-20 mt-20 px-9 py-10">
             <h1 className='text-end text-3xl'>Project</h1>
             <h1 className='text-end text-3xl'>Resume</h1>
@@ -44,14 +44,7 @@ export default function Navbar() {
           </div>
         </div>
         :
-        <div className="sm:hidden bg-Black2 w-[80%] h-screen text-whiteColor absolute right-0 top-0 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] shadow-Black2 transition-all duration-300 ease-in-out  ">
-          <div className="flex flex-col justify-center items-end gap-20 mt-20 px-9 py-10">
-            <h1 className='text-end text-3xl'>Project</h1>
-            <h1 className='text-end text-3xl'>Resume</h1>
-            <h1 className='text-end text-3xl'>Contact</h1>
-            <div className="w-20 h-20 rounded-full bg-Gray "></div>
-          </div>
-        </div>}
+        ''}
     </div>
   )
 }
